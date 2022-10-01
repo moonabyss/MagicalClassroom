@@ -19,6 +19,8 @@ void AMagicalClassroomHUD::DrawHUD()
 {
 	Super::DrawHUD();
 
+	return;
+
 	// Draw very simple crosshair
 
 	// find center of the Canvas

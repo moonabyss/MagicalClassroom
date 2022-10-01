@@ -118,7 +118,7 @@ void AMagicalClassroomCharacter::SetupPlayerInputComponent(class UInputComponent
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMagicalClassroomCharacter::OnFire);
+	// PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMagicalClassroomCharacter::OnFire);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
